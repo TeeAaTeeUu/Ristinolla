@@ -2,15 +2,23 @@ Aihe: ristinolla, viiden suora
 
 Käyttäjät: kaksin pelattava peli, sama näppäimistä ja hiiri, "hot-seat"
 
-Pelin idea: Lisätään ruudukkoon vuorotellen ristejä ja nollia, joista kumpikin merkkaa vain toista.
-            Tavoite on saada viiden ristin tai nollan suora, jolloin peli päättyy. Nollat yrittävät toki estää
-            ristien yrityksiä, ja myös toisinpäin.
+Pelin idea: Lisätään ruudukkoon vuorotellen ristejä ja nollia, joista kumpikin
+	    merkkaa vain toista. Tavoite on saada viiden ristin tai nollan suora,
+	    jolloin peli päättyy. Nollat yrittävät toki estää ristien yrityksiä,
+	    ja myös toisinpäin.
 
-Toteutus:   Lopullinen tarkoitus on, että pelialusta olisi graafinen käyttöliittymä kuin miinaharavassa, jolloin painettu ruutu
-            muuttuisi vuorosta riippuen nollaksi tai ristiksi. Pelin alussa olisi myös mahdollista päättää, minkä kokoinen kenttä on.
+Toteutus:   Lopullinen tarkoitus on, että pelialusta olisi graafinen käyttöliittymä
+	    kuin miinaharavassa, jolloin painettu ruutu muuttuisi vuorosta riippuen
+	    nollaksi tai ristiksi. Pelin alussa olisi myös mahdollista päättää,
+	    minkä kokoinen kenttä on.
 
-Sisältää:   Muutaman valmiin kenttä koon, sekä mahdollisuuden omaan versioon. Myös listausta siitä, kumpi on voittanut enemmän, risti vai nolla pelin aikana.
+Sisältää:   Muutaman valmiin kenttä koon, sekä mahdollisuuden omaan versioon. Myös
+	    listausta siitä, kumpi on voittanut enemmän, risti vai nolla pelin
+	    aikana.
 
-Miten:      Jokaisen lisäyksen jälkeen tarkistaa, onko toinen voittanut pelin. Saattaa tulla myöhemmin tehokkaampi ja "älykkäämpi" voitonlaskin.
-            Tallentaa tiedot vakiokokoisiin kokonaisluku- ja totuustauluihin tilan säästämiseksi ja tehokkuuden lisäämiseksi.
-            Logiikka puoli hoitaa merkintöjen tallennuksen,
+Miten:      Jokaisen lisäyksen jälkeen tarkistaa, onko toinen voittanut pelin.
+	    Saattaa tulla myöhemmin tehokkaampi ja "älykkäämpi" voitonlaskin.
+            Tallentaa tiedot vakiokokoisiin kokonaisluku- ja totuustauluihin tilan
+	    säästämiseksi ja tehokkuuden lisäämiseksi. Logiikka puoli hoitaa
+	    merkkien tallennuksen ja voitonlaskennan, GUI hoitaa ulkönäön ja vuoron
+	    vaihtumisen.
